@@ -1,0 +1,22 @@
+#izquierda {
+             
+   background-color:#D8D8D8;
+    float:left;
+    height:95%;
+    padding:10px;
+    width:22%;
+  }
+  #centro{
+  background-color:#F2F2F2;
+    float:left;
+    height:95%;
+    padding:10px;
+    width:50%;
+}
+#derecho{
+  background-color:#D8D8D8;
+    float:left;
+    height:95%;
+    padding:10px;
+    width:22%;
+}

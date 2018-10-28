@@ -1,0 +1,85 @@
+
+#pagina{
+  background-color:#F2E0F7;
+    float:left;
+    height:100%;
+    width:100%;
+}
+* {
+			margin:0px;
+			padding:0px;
+		}
+		
+		#header {
+			margin:auto;
+			width:100%;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		
+		ul, ol {
+			list-style:none;
+		}
+		
+		.nav > li {
+			float:left;
+		}
+		
+		.nav li a {
+			background-color:#6E6E6E;
+			color:#FFFFFF;
+			text-decoration:none;
+			padding:10px 15px;
+			display:block;
+		}
+		
+		.nav li a:hover {
+			background-color:#434343;
+		}
+		
+		.nav li ul {
+			display:none;
+			position:absolute;
+			min-width:140px;
+		}
+		
+		.nav li:hover > ul {
+			display:block;
+		}
+		
+		.nav li ul li {
+			position:relative;
+		}
+		
+		.nav li ul li ul {
+			right:-140px;
+			top:0px;
+		}
+#izquierdo {
+		 	 
+   background-color:#D8D8D8;
+    float:left;
+    height:95%;
+    padding:10px;
+    width:22%;
+  }
+#centro{
+  background-color:#F2F2F2;
+    float:left;
+    height:95%;
+    padding:10px;
+    width:50%;
+}
+#derecho{
+  background-color:#D8D8D8;
+    float:left;
+    height:95%;
+    padding:10px;
+    width:22%;
+}
+#inferior{
+  background-color:#BDBDBD;
+    float:left;
+    height:7%;
+    padding:7px;
+    width:100%;
+}
